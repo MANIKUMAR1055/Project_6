@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('6.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        video {
+    width: 50%; /* Adjust the width as needed */
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+section {
+    padding: 50px;
+    text-align: left; /* Align the text to the left */
+}
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Flipkart Home Page</h1>
+        <nav>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="login.html" >Log in</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="LogOut.html">LogOut</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This is a simple Flipkart page created using HTML.</p>
+            <p>Feel free to explore!</p>
+            <p>If you want to search for any product, just give the name and click on search...</p>
+            <video controls>
+                <source src="t.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Simple Home Page. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery (optional, but often used with Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function showAlert() {
+            alert("You clicked on Log in!");
+        }
+    </script>
+</body>
+</html>
